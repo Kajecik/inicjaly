@@ -1,11 +1,12 @@
 import turtle
-import math
 
 
+#1
 #wspolrzedne
 zolw = turtle.Turtle()
 turtle.setworldcoordinates(0,0,700,700)
 # litera P
+#2
 tablicaP0x = [118, 118,178,181,212,218]
 tablicaP0y = [222,73,75,171,186,230]
 tablicaP1x = [118,103,163,186,235,197]
@@ -16,6 +17,7 @@ tablicaP3x = [118,178,181,212,218,118]
 tablicaP3y = [73,75,171,186,230,223]
 
 # litera K
+#3
 tablica2P0x = [408,410,459,456,534,561,498,553,526,477,455,451]
 tablica2P0y = [42,213,216,139,213,177,120,43,42,96,95,37]
 tablica2P1x = [407,395,458,444,524,549,489,546,511,475,445,437]
@@ -24,7 +26,7 @@ tablica2P2x = [425,460,468,544,573,507,567,542,488,469,461,424]
 tablica2P2y = [214,201,148,201,168,108,49,41,85,97,34,38]
 tablica2P3x = [410,459,456,534,561,498,553,526,477,455,451,409]
 tablica2P3y = [213,216,139,213,177,120,43,42,96,95,37,38]
-
+ #4
 for x in range(0,6):
     licznik = 0
     while True:
@@ -44,7 +46,7 @@ for x in range(0,6):
         licznik += 0.001
         if licznik > 1:
             break
-
+#5
 for x in range(0,12):
     licznik = 0
     while True:
@@ -64,5 +66,5 @@ for x in range(0,12):
         licznik += 0.001
         if licznik > 1:
             break
-
+#6
 turtle.exitonclick()
