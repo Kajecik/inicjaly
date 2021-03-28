@@ -20,3 +20,5 @@ Kod jest analogiczny do punktu 4 dla litery K.
 ##6
 Dzięki funkcji exitonclick() ekran po narysowaniu nie zamyka się.
 
+![Podglądowy obrazek](https://zapodaj.net/084117408bc0e.png.html)
+
